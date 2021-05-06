@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HostMI</title>
+    <link rel="shortcut icon" href="/logo/logoD.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="docs.css">
+    <link rel="stylesheet" href="feature.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="/logo/logo (1).svg" alt=""></a>
+            
+        </div>
+
+        <ul class="Links active2">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="feature.html">Feature</a></li>
+            <li><a href="docs.html">Docs</a></li>
+        </ul>
+
+        <div class="Linkbtn" onclick="humBurger(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="text">
+            <h3>Easier Deployment</h3>
+            <p>
+                Deploy web apps of all kinds, from large scale enterprise APIs to
+                static websites for individuals. Fill out the form to try a demo of
+                our platform
+            </p>
+            <a href="/feature.html">Read More</a>
+        </div>
+
+        <div class="form">
+                
+            <h3>Request a Demo</h3>
+            <input id="name" type="text" placeholder="Enter Your Name" />
+            <input id="mail" type="email" placeholder="Enter Your Email" />
+            <input id="company" type="text" placeholder="Company Name" />
+            
+            <button id="btn">
+                <a href="#">Submit</a>
+            </button>
+      
+        </div>
+    </main>
+
+    <section class="status">
+        <div class="container-status">
+            <h3>
+                Welcome to the best platform for building applications of all types
+                with modern architecture and scaling
+            </h3>
+
+            <div class="flex-container">
+                <div class="iteam">
+                    <i class='fab fa-deploydog fa-lg'></i>
+                    <h4 class="count" data-target="1200">1200</h4>
+                    <p>Deployment</p>
+                </div>
+
+                <div class="iteam">
+                    <i class="fas fa-server fa-3x"></i>
+                    <h4 class="count" data-target="1000">1000</h4>
+                    <p>Publish</p>
+                </div>
+
+                <div class="iteam">
+                    <i class="fas fa-server fa-3x"></i>
+                    <h4 class="count" data-target="890">890</h4>
+                    <p>Project</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cli">
+            <div class="container">
+                <img src="img/cli (1).png" alt="" />
+
+                <div class="main-cont">
+                    <div class="card">
+                        <h4>Easy to use, cross platform CLI</h4>
+                    </div>
+
+                    <div class="card">
+                        <h4>Deploy in seconds</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Cloudhosting">
+        <div class="text-div">
+
+            <div class="text2">
+                <h2>Extreme Cloud Hosting</h2>
+                <p>
+                    Cloud Hosting like you've never seen. Fast, efficient and Scaleable
+                </p>
+                <a href="/feature.html">Read More</a>
+            </div>
+
+            <div class="img">
+                <img src="img/cloud.png" alt="" />
+            </div>
+        </div>
+
+        <div class="supportLang">
+            <h3>Supporting Language</h3>
+            <div class="card-container">
+                <div class="card">
+                    <h5>Node.js</h5>
+                    <img src="logo/node.png" alt="">
+                </div>
+
+                <div class="card">
+                    <h5>Go</h5>
+                    <img src="logo/go.png" alt="">
+                </div>
+
+                <div class="card">
+                    <h5>python</h5>
+                    <img src="logo/python.png" alt="">
+                </div>
+
+                <div class="card">
+                    <h5>Clojure</h5>
+                    <img src="logo/clojure.png" alt="">
+                </div>
+
+                <div class="card">
+                    <h5>C#</h5>
+                    <img src="logo/csharp.png" alt="">
+                </div>
+
+                <div class="card">
+                    <h5>Ruby</h5>
+                    <img src="logo/ruby.png" alt="">
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="foot-div">
+
+            <div class="firstDiv">
+                <a href="#"><img src="/logo/logo (1).svg" alt=""></a>
+               <p>Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out the form to try a demo of our platform
+
+            </p>
+                <p>Copyright © 2020</p>
+            </div>
+
+            <ul class="linksList">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="feature.html">Feature</a></li>
+                <li><a href="docs.html">Docs</a></li>
+            </ul>
+
+            <div class="socials">
+                <h3>Socials Media</h3>
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
